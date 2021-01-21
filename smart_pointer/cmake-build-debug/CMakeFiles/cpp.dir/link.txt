@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11  -g  -shared -Wl,-soname,libcpp.so -o libcpp.so CMakeFiles/cpp.dir/smart_pointer.cpp.o 
