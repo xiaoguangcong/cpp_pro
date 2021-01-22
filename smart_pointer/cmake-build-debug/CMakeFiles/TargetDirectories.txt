@@ -1,3 +1,0 @@
-/home/xgc/LearnSpace/cpp_pro/smart_pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/xgc/LearnSpace/cpp_pro/smart_pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/xgc/LearnSpace/cpp_pro/smart_pointer/cmake-build-debug/CMakeFiles/cpp.dir
