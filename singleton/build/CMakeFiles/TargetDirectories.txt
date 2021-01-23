@@ -1,0 +1,3 @@
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/build/CMakeFiles/singleton_example.dir

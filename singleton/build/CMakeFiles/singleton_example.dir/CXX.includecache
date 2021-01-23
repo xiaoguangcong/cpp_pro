@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/main.cpp
+singleton_eager.cpp
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_eager.cpp
+singleton_lazy.cpp
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_lazy.cpp
+
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_eager.cpp
+iostream
+-
+
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_lazy.cpp
+iostream
+-
+memory
+-
+mutex
+-
+
