@@ -7,8 +7,10 @@
 #IncludeRegexTransform: 
 
 /mnt/c/Users/xgc/Desktop/cpp_pro/string/main.cpp
-string.cpp
-/mnt/c/Users/xgc/Desktop/cpp_pro/string/string.cpp
+string.h
+/mnt/c/Users/xgc/Desktop/cpp_pro/string/string.h
+assert.h
+-
 
 /mnt/c/Users/xgc/Desktop/cpp_pro/string/string.cpp
 string.h

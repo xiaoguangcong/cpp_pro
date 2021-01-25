@@ -56,8 +56,8 @@ String& String::operator+=(const String& str)
      length += str.length;
      char* tmp = new char[length+1];
      strcpy(tmp, data);
-     strcpy(tmp, str.data);
-     delete data;
+     strcat(tmp, str.data);
+     delete[] data;
      data = tmp;
      return *this;
 }
@@ -74,16 +74,15 @@ String& String::operator+=(const char* c)
     return *this;
 }
 
-char String::operator[](size_t n) const
+char& String::operator[](size_t n)
 {
-    if (n < 0 || n >= length) 
-    { 
-        return data[0]; 
-    }
-    if (data != nullptr) 
-    { 
-        return data[n]; 
-    }
+    return data[n];
+}
+
+
+const char String::operator[](size_t n) const
+{
+    return data[n];
 }
 
 size_t String::size() const
@@ -119,6 +118,27 @@ String::~String()
     }
 }
 
+String operator+(const String &str1, const String &str2)
+{
+    String str(str1);
+    str += str2;
+    return str;
+}
+
+String operator+(const char *c, const String &str)
+{
+    String str1(str);
+    str1 += c;
+    return str1;
+}
+
+String operator+(const String &str, const char *c)
+{
+    String str1(str);
+    str1 += c;
+    return str1;
+}
+
 bool operator>(const String& str1, const String& str2)
 {
     return ::strcmp(str1.data, str2.data) > 0;
@@ -152,6 +172,11 @@ bool operator!=(const String& str1, const String& str2)
 void String::swap(String& str)
 {
     std::swap(data, str.data);
+}
+
+void String::print() const
+{
+    std::cout << data << std::endl;
 }
 
 };
