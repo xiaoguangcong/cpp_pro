@@ -7,16 +7,16 @@
 #IncludeRegexTransform: 
 
 /mnt/c/Users/xgc/Desktop/cpp_pro/singleton/main.cpp
-singleton_eager.cpp
-/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_eager.cpp
-singleton_lazy.cpp
-/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_lazy.cpp
+singleton_eager.h
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_eager.h
+singleton_lazy.h
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_lazy.h
 
-/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_eager.cpp
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_eager.h
 iostream
 -
 
-/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_lazy.cpp
+/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/singleton_lazy.h
 iostream
 -
 memory

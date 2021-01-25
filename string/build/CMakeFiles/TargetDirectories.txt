@@ -1,0 +1,3 @@
+/mnt/c/Users/xgc/Desktop/cpp_pro/string/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/xgc/Desktop/cpp_pro/string/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/xgc/Desktop/cpp_pro/string/build/CMakeFiles/string_example.dir

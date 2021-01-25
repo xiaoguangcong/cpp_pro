@@ -41,5 +41,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/smart_pointer_example.dir/DependInfo.cmake"
+  "CMakeFiles/string_example.dir/DependInfo.cmake"
   )

@@ -1,5 +1,4 @@
-#include <iostream>
-#include "shared_pointer.cpp"
+#include "smart_pointer.h"
 
 namespace smart_pointer
 {

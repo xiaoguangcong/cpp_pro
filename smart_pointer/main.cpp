@@ -2,10 +2,7 @@
 // Created by xgc on 2021/1/21.
 //
 
-#include <iostream>
-#include "shared_pointer.cpp"
-#include "unique_pointer.cpp"
-#include "weak_pointer.cpp"
+#include "smart_pointer.h"
 
 int main() {
     /* --------- Test the shared pointer -------- */

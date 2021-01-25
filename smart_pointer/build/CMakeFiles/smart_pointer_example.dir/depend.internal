@@ -3,6 +3,7 @@
 
 CMakeFiles/smart_pointer_example.dir/main.cpp.o
  /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/main.cpp
- /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/shared_pointer.cpp
- /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/unique_pointer.cpp
- /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/weak_pointer.cpp
+ /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/shared_pointer.h
+ /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/smart_pointer.h
+ /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/unique_pointer.h
+ /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/weak_pointer.h
