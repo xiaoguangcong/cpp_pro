@@ -3,7 +3,6 @@
 
 CMakeFiles/smart_pointer_example.dir/main.cpp.o: ../main.cpp
 CMakeFiles/smart_pointer_example.dir/main.cpp.o: ../shared_pointer.h
-CMakeFiles/smart_pointer_example.dir/main.cpp.o: ../smart_pointer.h
 CMakeFiles/smart_pointer_example.dir/main.cpp.o: ../unique_pointer.h
 CMakeFiles/smart_pointer_example.dir/main.cpp.o: ../weak_pointer.h
 

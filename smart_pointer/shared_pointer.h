@@ -2,7 +2,7 @@
 // Created by xgc on 2021/1/21.
 //
 
-#include "smart_pointer.h"
+#include <iostream>
 
 namespace smart_pointer
 {

@@ -1,4 +1,4 @@
-#include "smart_pointer.h"
+#include <iostream>
 
 namespace smart_pointer
 {
