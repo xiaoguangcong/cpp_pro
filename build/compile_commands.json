@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/mnt/c/Users/xgc/Desktop/cpp_pro/build/singleton",
+  "command": "/usr/bin/g++-5     -std=c++11  -g   -o CMakeFiles/singleton_example.dir/main.cpp.o -c /mnt/c/Users/xgc/Desktop/cpp_pro/singleton/main.cpp",
+  "file": "/mnt/c/Users/xgc/Desktop/cpp_pro/singleton/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/xgc/Desktop/cpp_pro/build/smart_pointer",
+  "command": "/usr/bin/g++-5     -std=c++11  -g   -o CMakeFiles/smart_pointer_example.dir/main.cpp.o -c /mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/main.cpp",
+  "file": "/mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/xgc/Desktop/cpp_pro/build/string",
+  "command": "/usr/bin/g++-5     -std=c++11  -g   -o CMakeFiles/string_example.dir/main.cpp.o -c /mnt/c/Users/xgc/Desktop/cpp_pro/string/main.cpp",
+  "file": "/mnt/c/Users/xgc/Desktop/cpp_pro/string/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/xgc/Desktop/cpp_pro/build/string",
+  "command": "/usr/bin/g++-5     -std=c++11  -g   -o CMakeFiles/string_example.dir/string.cpp.o -c /mnt/c/Users/xgc/Desktop/cpp_pro/string/string.cpp",
+  "file": "/mnt/c/Users/xgc/Desktop/cpp_pro/string/string.cpp"
+}
+]

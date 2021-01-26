@@ -1,3 +1,0 @@
-/mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/xgc/Desktop/cpp_pro/smart_pointer/build/CMakeFiles/smart_pointer_example.dir

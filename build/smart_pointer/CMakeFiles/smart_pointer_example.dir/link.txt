@@ -1,0 +1,1 @@
+/usr/bin/g++-5   -std=c++11  -g   CMakeFiles/smart_pointer_example.dir/main.cpp.o  -o smart_pointer_example 
