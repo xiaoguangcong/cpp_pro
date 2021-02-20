@@ -181,6 +181,12 @@ cpp_pro_BINARY_DIR:STATIC=/mnt/c/Users/xgc/Desktop/cpp_pro/build/string
 cpp_pro_SOURCE_DIR:STATIC=/mnt/c/Users/xgc/Desktop/cpp_pro/string
 
 //Value Computed by CMake
+lru_BINARY_DIR:STATIC=/mnt/c/Users/xgc/Desktop/cpp_pro/build/lru
+
+//Value Computed by CMake
+lru_SOURCE_DIR:STATIC=/mnt/c/Users/xgc/Desktop/cpp_pro/lru
+
+//Value Computed by CMake
 singleton_BINARY_DIR:STATIC=/mnt/c/Users/xgc/Desktop/cpp_pro/build/singleton
 
 //Value Computed by CMake
@@ -277,7 +283,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

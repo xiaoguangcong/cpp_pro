@@ -18,5 +18,10 @@
   "directory": "/mnt/c/Users/xgc/Desktop/cpp_pro/build/string",
   "command": "/usr/bin/g++-5     -std=c++11  -g   -o CMakeFiles/string_example.dir/string.cpp.o -c /mnt/c/Users/xgc/Desktop/cpp_pro/string/string.cpp",
   "file": "/mnt/c/Users/xgc/Desktop/cpp_pro/string/string.cpp"
+},
+{
+  "directory": "/mnt/c/Users/xgc/Desktop/cpp_pro/build/lru",
+  "command": "/usr/bin/g++-5     -std=c++11 -std=c++11  -g   -o CMakeFiles/lru_example.dir/main.cpp.o -c /mnt/c/Users/xgc/Desktop/cpp_pro/lru/main.cpp",
+  "file": "/mnt/c/Users/xgc/Desktop/cpp_pro/lru/main.cpp"
 }
 ]

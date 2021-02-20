@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles /mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles /mnt/c/Users/xgc/Desktop/cpp_pro/build/lru/CMakeFiles/progress.marks
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f CMakeFiles/Makefile2 lru/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f CMakeFiles/Makefile2 lru/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,70 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f CMakeFiles/Makefile2 lru/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f CMakeFiles/Makefile2 lru/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named singleton_example
+# Convenience name for target.
+lru/CMakeFiles/lru_example.dir/rule:
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f CMakeFiles/Makefile2 lru/CMakeFiles/lru_example.dir/rule
+.PHONY : lru/CMakeFiles/lru_example.dir/rule
 
-# Build rule for target.
-singleton_example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 singleton_example
-.PHONY : singleton_example
+# Convenience name for target.
+lru_example: lru/CMakeFiles/lru_example.dir/rule
 
-# fast build rule for target.
-singleton_example/fast:
-	$(MAKE) -f singleton/CMakeFiles/singleton_example.dir/build.make singleton/CMakeFiles/singleton_example.dir/build
-.PHONY : singleton_example/fast
-
-#=============================================================================
-# Target rules for targets named smart_pointer_example
-
-# Build rule for target.
-smart_pointer_example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 smart_pointer_example
-.PHONY : smart_pointer_example
-
-# fast build rule for target.
-smart_pointer_example/fast:
-	$(MAKE) -f smart_pointer/CMakeFiles/smart_pointer_example.dir/build.make smart_pointer/CMakeFiles/smart_pointer_example.dir/build
-.PHONY : smart_pointer_example/fast
-
-#=============================================================================
-# Target rules for targets named string_example
-
-# Build rule for target.
-string_example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 string_example
-.PHONY : string_example
-
-# fast build rule for target.
-string_example/fast:
-	$(MAKE) -f string/CMakeFiles/string_example.dir/build.make string/CMakeFiles/string_example.dir/build
-.PHONY : string_example/fast
-
-#=============================================================================
-# Target rules for targets named lru_example
-
-# Build rule for target.
-lru_example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lru_example
 .PHONY : lru_example
 
 # fast build rule for target.
 lru_example/fast:
-	$(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/build
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/build
 .PHONY : lru_example/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -170,10 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... singleton_example"
-	@echo "... smart_pointer_example"
-	@echo "... string_example"
 	@echo "... lru_example"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -185,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/xgc/Desktop/cpp_pro/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

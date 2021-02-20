@@ -84,7 +84,7 @@ singleton/preinstall:
 singleton/CMakeFiles/singleton_example.dir/all:
 	$(MAKE) -f singleton/CMakeFiles/singleton_example.dir/build.make singleton/CMakeFiles/singleton_example.dir/depend
 	$(MAKE) -f singleton/CMakeFiles/singleton_example.dir/build.make singleton/CMakeFiles/singleton_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles --progress-num=1,2 "Built target singleton_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles --progress-num=3,4 "Built target singleton_example"
 .PHONY : singleton/CMakeFiles/singleton_example.dir/all
 
 # Include target in all.
@@ -139,7 +139,7 @@ smart_pointer/preinstall:
 smart_pointer/CMakeFiles/smart_pointer_example.dir/all:
 	$(MAKE) -f smart_pointer/CMakeFiles/smart_pointer_example.dir/build.make smart_pointer/CMakeFiles/smart_pointer_example.dir/depend
 	$(MAKE) -f smart_pointer/CMakeFiles/smart_pointer_example.dir/build.make smart_pointer/CMakeFiles/smart_pointer_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles --progress-num=3,4 "Built target smart_pointer_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles --progress-num=5,6 "Built target smart_pointer_example"
 .PHONY : smart_pointer/CMakeFiles/smart_pointer_example.dir/all
 
 # Include target in all.
@@ -194,7 +194,7 @@ string/preinstall:
 string/CMakeFiles/string_example.dir/all:
 	$(MAKE) -f string/CMakeFiles/string_example.dir/build.make string/CMakeFiles/string_example.dir/depend
 	$(MAKE) -f string/CMakeFiles/string_example.dir/build.make string/CMakeFiles/string_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles --progress-num=5,6,7 "Built target string_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles --progress-num=7,8,9 "Built target string_example"
 .PHONY : string/CMakeFiles/string_example.dir/all
 
 # Include target in all.
@@ -221,6 +221,61 @@ string/CMakeFiles/string_example.dir/clean:
 
 # clean rule for target.
 clean: string/CMakeFiles/string_example.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lru
+
+# Convenience name for "all" pass in the directory.
+lru/all: lru/CMakeFiles/lru_example.dir/all
+
+.PHONY : lru/all
+
+# Convenience name for "clean" pass in the directory.
+lru/clean: lru/CMakeFiles/lru_example.dir/clean
+
+.PHONY : lru/clean
+
+# Convenience name for "preinstall" pass in the directory.
+lru/preinstall:
+
+.PHONY : lru/preinstall
+
+#=============================================================================
+# Target rules for target lru/CMakeFiles/lru_example.dir
+
+# All Build rule for target.
+lru/CMakeFiles/lru_example.dir/all:
+	$(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/depend
+	$(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles --progress-num=1,2 "Built target lru_example"
+.PHONY : lru/CMakeFiles/lru_example.dir/all
+
+# Include target in all.
+all: lru/CMakeFiles/lru_example.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+lru/CMakeFiles/lru_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 lru/CMakeFiles/lru_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/xgc/Desktop/cpp_pro/build/CMakeFiles 0
+.PHONY : lru/CMakeFiles/lru_example.dir/rule
+
+# Convenience name for target.
+lru_example: lru/CMakeFiles/lru_example.dir/rule
+
+.PHONY : lru_example
+
+# clean rule for target.
+lru/CMakeFiles/lru_example.dir/clean:
+	$(MAKE) -f lru/CMakeFiles/lru_example.dir/build.make lru/CMakeFiles/lru_example.dir/clean
+.PHONY : lru/CMakeFiles/lru_example.dir/clean
+
+# clean rule for target.
+clean: lru/CMakeFiles/lru_example.dir/clean
 
 .PHONY : clean
 

@@ -9,3 +9,6 @@
 /mnt/c/Users/xgc/Desktop/cpp_pro/build/string/CMakeFiles/edit_cache.dir
 /mnt/c/Users/xgc/Desktop/cpp_pro/build/string/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/xgc/Desktop/cpp_pro/build/string/CMakeFiles/string_example.dir
+/mnt/c/Users/xgc/Desktop/cpp_pro/build/lru/CMakeFiles/edit_cache.dir
+/mnt/c/Users/xgc/Desktop/cpp_pro/build/lru/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/xgc/Desktop/cpp_pro/build/lru/CMakeFiles/lru_example.dir

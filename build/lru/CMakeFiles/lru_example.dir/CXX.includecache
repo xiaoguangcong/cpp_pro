@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/xgc/Desktop/cpp_pro/lru/lru.h
+iostream
+-
+list
+-
+string
+-
+unordered_map
+-
+
+/mnt/c/Users/xgc/Desktop/cpp_pro/lru/main.cpp
+lru.h
+/mnt/c/Users/xgc/Desktop/cpp_pro/lru/lru.h
+

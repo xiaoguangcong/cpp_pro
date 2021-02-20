@@ -1,0 +1,1 @@
+/usr/bin/g++-5   -std=c++11 -std=c++11  -g   CMakeFiles/lru_example.dir/main.cpp.o  -o lru_example 
