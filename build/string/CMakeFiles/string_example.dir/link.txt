@@ -1,1 +1,1 @@
-/usr/bin/g++-5   -std=c++11  -g   CMakeFiles/string_example.dir/main.cpp.o CMakeFiles/string_example.dir/string.cpp.o  -o string_example 
+/usr/bin/g++-5   -std=c++11  -g   CMakeFiles/string_example.dir/main.cpp.o CMakeFiles/string_example.dir/string.cpp.o  -o ../../bin/string_example 

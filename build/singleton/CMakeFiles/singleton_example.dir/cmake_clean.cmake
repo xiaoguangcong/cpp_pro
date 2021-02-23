@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/singleton_example.dir/main.cpp.o"
-  "singleton_example.pdb"
-  "singleton_example"
+  "../../bin/singleton_example.pdb"
+  "../../bin/singleton_example"
 )
 
 # Per-language clean rules from dependency scanning.

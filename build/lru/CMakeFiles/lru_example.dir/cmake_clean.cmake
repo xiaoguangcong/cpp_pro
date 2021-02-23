@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lru_example.dir/main.cpp.o"
-  "lru_example.pdb"
-  "lru_example"
+  "../../bin/lru_example.pdb"
+  "../../bin/lru_example"
 )
 
 # Per-language clean rules from dependency scanning.

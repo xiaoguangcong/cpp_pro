@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/smart_pointer_example.dir/main.cpp.o"
-  "smart_pointer_example.pdb"
-  "smart_pointer_example"
+  "../../bin/smart_pointer_example.pdb"
+  "../../bin/smart_pointer_example"
 )
 
 # Per-language clean rules from dependency scanning.
