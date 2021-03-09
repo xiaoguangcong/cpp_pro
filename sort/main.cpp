@@ -1,6 +1,5 @@
 #include "sort.h"
 
-
 void PrintArray(int array[], int len)
 {
     for (int i = 0; i < len; i++)
@@ -23,6 +22,19 @@ int main() {
     PrintArray(array, NUM);
     std::cout << "排序后：" << std::endl;
     QuickSort(array, 0, NUM - 1);
+    PrintArray(array, NUM);
+    
+    std::cout << std::endl;
+
+    for (int i = 0; i < NUM; i++)
+    {
+        array[i] = rand() % 100 + 1;
+    }
+    std::cout << "堆排序示例：" << std::endl;
+    std::cout << "排序前：" << std::endl;
+    PrintArray(array, NUM);
+    std::cout << "排序后：" << std::endl;
+    HeapSort(array, NUM);
     PrintArray(array, NUM);
 
     return 0;
