@@ -37,6 +37,19 @@ int main() {
     HeapSort(array, NUM);
     PrintArray(array, NUM);
 
+    std::cout << std::endl;
+
+    for (int i = 0; i < NUM; i++)
+    {
+        array[i] = rand() % 100 + 1;
+    }
+    std::cout << "归并排序示例：" << std::endl;
+    std::cout << "排序前：" << std::endl;
+    PrintArray(array, NUM);
+    std::cout << "排序后：" << std::endl;
+    MergeSort(array, 0, NUM - 1);
+    PrintArray(array, NUM);
+
     return 0;
 
 }
