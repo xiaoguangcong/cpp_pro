@@ -1,1 +1,0 @@
-/usr/bin/g++-5   -std=c++11  -g   CMakeFiles/singleton_example.dir/main.cpp.o  -o ../../bin/singleton_example 
