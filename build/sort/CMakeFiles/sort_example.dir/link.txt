@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11    CMakeFiles/sort_example.dir/main.cpp.o CMakeFiles/sort_example.dir/quicksort.cpp.o CMakeFiles/sort_example.dir/heapsort.cpp.o CMakeFiles/sort_example.dir/mergesort.cpp.o  -o ../../bin/sort_example 

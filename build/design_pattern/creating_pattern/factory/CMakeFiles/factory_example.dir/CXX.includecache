@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/design_pattern/creating_pattern/factory/factory_method.h
+simple_factory.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/design_pattern/creating_pattern/factory/simple_factory.h
+iostream
+-
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/design_pattern/creating_pattern/factory/main.cpp
+simple_factory.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/design_pattern/creating_pattern/factory/simple_factory.h
+factory_method.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/design_pattern/creating_pattern/factory/factory_method.h
+cstdio
+-
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/design_pattern/creating_pattern/factory/simple_factory.h
+iostream
+-
+string
+-
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/smart_pointer/main.cpp
+iostream
+-
+shared_pointer.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/smart_pointer/shared_pointer.h
+weak_pointer.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/smart_pointer/weak_pointer.h
+unique_pointer.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/smart_pointer/unique_pointer.h
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/smart_pointer/shared_pointer.h
+iostream
+-
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/smart_pointer/unique_pointer.h
+iostream
+-
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/smart_pointer/weak_pointer.h
+iostream
+-
+

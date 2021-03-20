@@ -7,6 +7,8 @@
     定义一个简单工厂类，它可以根据参数的不同返回不同类的实例，被创建的实例通常都具有共同的父类
  */
 
+namespace SimpleFactory {
+ 
 // 抽象产品类 AbstractProduct
 class AbstractProduct{
 public:
@@ -17,7 +19,7 @@ public:
 class ProductA : public AbstractProduct {
 public:
     void show() override{
-        std::cout << " product a " << std::endl;
+        std::cout << " product a created by simple factory" << std::endl;
     };
 };
 
@@ -25,7 +27,7 @@ public:
 class ProductB : public AbstractProduct {
 public:
     void show() override{
-        std::cout << " product b " << std::endl;
+        std::cout << " product b created by simple factory" << std::endl;
     };
 };
 
@@ -43,3 +45,6 @@ public:
         return pro;
     }
 };
+ 
+}
+

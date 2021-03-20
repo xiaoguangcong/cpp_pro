@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/heapsort.cpp
+sort.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/sort.h
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/main.cpp
+sort.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/sort.h
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/mergesort.cpp
+sort.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/sort.h
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/quicksort.cpp
+sort.h
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/sort.h
+
+/mnt/c/Users/xgc/Desktop/project/cpp_pro/sort/sort.h
+iostream
+-
+
