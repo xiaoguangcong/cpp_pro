@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -std=c++11    CMakeFiles/lru_example.dir/main.cpp.o  -o ../../bin/lru_example 

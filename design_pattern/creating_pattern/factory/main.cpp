@@ -1,5 +1,6 @@
 #include "simple_factory.h"
 #include "factory_method.h"
+#include "abstract_factory.h"
 #include <cstdio>
 
 
@@ -31,6 +32,25 @@ int main (){
     pro = fac->getProduct();
     pro->show();
 
+    printf("\n");
+
+    printf("抽象工厂模式\n");
+    // 定义工厂类对象和产品对象
+    AbstractFactory::AbstractFactory* fac_ = NULL;
+    AbstractFactory::AbstractBall* ball = NULL;
+    AbstractFactory::AbstractShirt* shirt = NULL;
+
+    fac_ = new AbstractFactory::BasketballFactory();
+    ball = fac_->getBall();
+    shirt = fac_->getShirt();
+    ball->play();
+    shirt->wear();
+
+    fac_ = new AbstractFactory::FootballFactory();
+    ball = fac_->getBall();
+    shirt = fac_->getShirt();
+    ball->play();
+    shirt->wear();
 
     return 0;
 }

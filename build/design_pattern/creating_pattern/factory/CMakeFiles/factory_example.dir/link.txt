@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11    CMakeFiles/factory_example.dir/main.cpp.o  -o ../../../../bin/factory_example 
