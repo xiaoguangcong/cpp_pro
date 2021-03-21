@@ -1,0 +1,1 @@
+add_executable(bridge_example main.cpp)
