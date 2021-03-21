@@ -3,12 +3,6 @@
 #include <cstdio>
 #include <iostream>
 
-/*
-    建造者模式：
-    将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
- */ 
-
-
 // 产品：最终要建成的东西
 class Product{
 public:
