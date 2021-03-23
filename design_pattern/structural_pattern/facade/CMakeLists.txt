@@ -1,0 +1,1 @@
+add_executable(facade_example main.cpp)
