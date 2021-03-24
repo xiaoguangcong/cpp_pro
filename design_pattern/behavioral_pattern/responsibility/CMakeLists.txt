@@ -1,1 +1,1 @@
-add_executable(responsibility_example main.cpp)
+add_executable(ChainOfResponsibility main.cpp)

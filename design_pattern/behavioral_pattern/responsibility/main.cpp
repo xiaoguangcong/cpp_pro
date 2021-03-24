@@ -1,4 +1,4 @@
-#include "responsibility.h"
+#include "ChainOfResponsibility.h"
 #include <cstdio>
 
 int main()

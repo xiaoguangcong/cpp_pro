@@ -1,1 +1,2 @@
 add_subdirectory(responsibility)
+add_subdirectory(Command)
