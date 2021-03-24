@@ -1,0 +1,1 @@
+add_executable(responsibility_example main.cpp)
