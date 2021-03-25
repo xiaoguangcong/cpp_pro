@@ -1,2 +1,3 @@
 add_subdirectory(responsibility)
 add_subdirectory(Command)
+add_subdirectory(Interpreter)
